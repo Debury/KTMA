@@ -96,27 +96,7 @@ python batch_process_sectors.py granite4:tiny-h 3
 - `all_sectors_summary.json` - 87 key events across 23 sectors
 - Processing time: ~30-40 minutes (23 sectors, ~90 sec/sector)
 
-**Output format:**
-```json
-{
-  "metadata": {
-    "total_key_events": 87,
-    "total_sectors": 23
-  },
-  "sectors": {
-    "1": {
-      "key_events": [
-        {
-          "rank": 1,
-          "date": "2025-10-09",
-          "event": "Company X raised $500M...",
-          "impact_score": "high"
-        }
-      ]
-    }
-  }
-}
-```
+
 
 ### Step 3: Generate Weekly Summary
 
