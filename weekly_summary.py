@@ -52,10 +52,19 @@ def collect_all_key_events(data):
                 'sector_id': sector_id,
                 'ticker_count': ticker_count,
                 'date': event.get('date', 'unknown'),
-                'event': event.get('event', '')
+                'event': event.get('event', ''),
+                'rank': event.get('rank', 99),  # sector-level rank
+                'impact_score': event.get('impact_score', 'medium')
             })
     
+    # Sort by impact_score (high first) then by rank
+    impact_order = {'high': 0, 'medium': 1, 'low': 2}
+    all_events.sort(key=lambda x: (impact_order.get(x['impact_score'], 1), x['rank']))
+    
     print(f"Collected {len(all_events)} total key events from all sectors")
+    print(f"  High impact: {sum(1 for e in all_events if e['impact_score'] == 'high')}")
+    print(f"  Medium impact: {sum(1 for e in all_events if e['impact_score'] == 'medium')}")
+    print(f"  Low impact: {sum(1 for e in all_events if e['impact_score'] == 'low')}")
     return all_events
 
 
@@ -149,41 +158,70 @@ def generate_weekly_summary(all_events, model_name="gemma3:4b"):
     else:
         week_period = f"Week of {datetime.now().strftime('%B %d, %Y')}"
     
-    # Prepare events for the prompt
+    # Prepare events for the prompt - include rank and impact score from sector analysis
     events_text = ""
     for idx, event in enumerate(all_events, 1):
-        events_text += f"{idx}. [Sector {event['sector_id']}] ({event['date']}): {event['event']}\n\n"
+        impact = event.get('impact_score', 'medium').upper()
+        sector_rank = event.get('rank', 99)
+        events_text += f"{idx}. [IMPACT: {impact}] [SECTOR RANK: {sector_rank}] [Sector {event['sector_id']}] ({event['date']}): {event['event']}\n\n"
+    
+    # Count by impact score
+    high_impact_count = sum(1 for e in all_events if e.get('impact_score') == 'high')
+    medium_impact_count = sum(1 for e in all_events if e.get('impact_score') == 'medium')
     
     # ========== STAGE 1: Generate initial summary ==========
-    stage1_prompt = f"""You are a senior financial analyst. Create a weekly market report from these {len(all_events)} events.
+    stage1_prompt = f"""You are a SENIOR FINANCIAL ADVISOR at a major investment bank, preparing the weekly market intelligence briefing for portfolio managers and institutional clients.
 
-## PRIORITY RANKING (use this order):
-1. **HIGHEST**: Events with DOLLAR AMOUNTS ($millions, $billions) - M&A deals, contracts, funding rounds
-2. **HIGH**: Stock price movements with PERCENTAGES (surged 15%, dropped 20%)
-3. **MEDIUM**: Product launches, partnerships with named companies
-4. **LOW**: Leadership appointments, general counsel hires, routine corporate updates
+## YOUR ROLE:
+- Identify market-moving events that affect investment decisions
+- Prioritize by DOLLAR IMPACT (billions > millions > thousands)
+- Focus on actionable intelligence: acquisitions, earnings, regulatory changes, leadership shifts
 
-## EVENTS TO ANALYZE:
+## INPUT DATA:
+{len(all_events)} events from {len(set(e['sector_id'] for e in all_events))} sectors
+- HIGH impact events: {high_impact_count} (prioritize these!)
+- MEDIUM impact events: {medium_impact_count}
+
+Events are PRE-RANKED by sector analysts:
+- [IMPACT: HIGH] = Major market mover, significant $ amounts
+- [IMPACT: MEDIUM] = Notable development
+- [IMPACT: LOW] = Minor news
+- [SECTOR RANK: 1] = Top event in that sector
+
+## EVENTS:
 {events_text}
 
-Select 10-12 MOST SIGNIFICANT events. Prioritize events with concrete numbers over general announcements.
+## YOUR TASK AS FINANCIAL ADVISOR:
+1. SELECT 8-12 most investment-relevant events
+2. PRIORITIZE: [IMPACT: HIGH] events first, then by SECTOR RANK
+3. PRIORITIZE: Bigger dollar amounts over smaller ones
+4. IGNORE: Routine appointments, minor product updates unless no better options
+5. NO DUPLICATES: Each company/person should appear MAX ONCE
 
-Output as JSON:
+## OUTPUT FORMAT:
 {{
-  "report_type": "weekly_summary",
+  "report_type": "weekly_market_intelligence",
   "week_period": "{week_period}",
-  "executive_summary": "2-3 paragraph summary focusing on biggest dollar amounts and market moves",
+  "executive_summary": "2-3 paragraphs for portfolio managers. Lead with biggest $ moves. Include specific company names and amounts.",
   "top_events": [
-    {{"rank": 1, "category": "Category", "headline": "Headline", "details": "Include specific numbers", "market_impact": "Impact"}}
+    {{
+      "rank": 1,
+      "category": "M&A/Earnings/Leadership/Regulatory/Funding",
+      "headline": "Short impactful headline",
+      "details": "Include WHO, WHAT, HOW MUCH ($XXM/$XXB), and WHY it matters",
+      "market_impact": "high/medium/low",
+      "investment_implication": "Brief note on portfolio implications"
+    }}
   ],
-  "themes": ["theme1", "theme2"]
+  "sector_highlights": ["Most active sectors"],
+  "themes": ["Emerging themes across sectors"]
 }}
 
 Output ONLY valid JSON:"""
 
     print(f"\n{'='*60}")
-    print(f"STAGE 1: Generating initial summary using {model_name}...")
-    print(f"Processing {len(all_events)} events...")
+    print(f"STAGE 1: Generating market intelligence report using {model_name}...")
+    print(f"Processing {len(all_events)} events ({high_impact_count} high impact)...")
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"{'='*60}")
     
@@ -224,15 +262,16 @@ Output ONLY valid JSON:"""
     # Find entities mentioned more than once
     repeated_entities = [k for k, v in entities_count.items() if v > 1]
     
-    stage2_prompt = f"""You are a deduplication editor. Remove ONLY true duplicates.
+    stage2_prompt = f"""You are a senior editor at a financial research firm performing quality control.
 
-CURRENT LIST OF {len(stage1_events)} EVENTS:
+CURRENT LIST OF {len(stage1_events)} EVENTS FOR THE WEEKLY BRIEFING:
 {json.dumps(stage1_events, indent=2)}
 
 ## DEFINITION OF DUPLICATE:
 Two events are duplicates ONLY if they describe the EXACT SAME underlying fact:
-- Same person + same statement = DUPLICATE
 - Same company + same announcement = DUPLICATE
+- Same person + same statement = DUPLICATE
+- Same dollar amount reported twice = DUPLICATE
 - Same numbers reported twice = DUPLICATE
 
 ## NOT DUPLICATES (keep both):
@@ -248,12 +287,13 @@ Check each: Are they TRUE duplicates (same fact) or different news about same en
 1. Compare events mentioning same entity
 2. If SAME underlying fact -> remove less detailed one
 3. If DIFFERENT facts -> keep both
-4. Re-rank 1 to N
+4. Re-rank 1 to N (highest impact = rank 1)
+5. Preserve investment_implication field if present
 
 ## OUTPUT:
 {{
   "top_events": [
-    {{"rank": 1, "category": "...", "headline": "...", "details": "...", "market_impact": "..."}}
+    {{"rank": 1, "category": "...", "headline": "...", "details": "...", "market_impact": "high/medium/low", "investment_implication": "..."}}
   ],
   "duplicates_removed": ["headline removed"],
   "kept_as_different": ["similar but different news"]

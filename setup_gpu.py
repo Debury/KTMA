@@ -9,7 +9,7 @@ import time
 
 def setup_gpu_environment():
     """Configure environment for GPU support."""
-    print("🖥️  Setting up GPU environment for NVIDIA RTX 3050...")
+    print("🖥️  Setting up GPU environment...")
     print()
     
     # Set environment variables for CUDA GPU acceleration

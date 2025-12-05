@@ -315,7 +315,6 @@ No other fields. No code fences or extra text.
     
     try:
         print("\n⏳ Running model inference on GPU...")
-        print("   Using: NVIDIA RTX 3050 with CUDA acceleration")
         inference_start = time.time()
         
         env = os.environ.copy()
