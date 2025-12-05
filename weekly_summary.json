@@ -1,0 +1,58 @@
+{
+  "report_type": "weekly_summary",
+  "week_period": "January 05 - January 14, 2024",
+  "executive_summary": "The week saw significant activity across various sectors with notable developments in AI chip demand, aerospace contracts, and rare earth mineral exports. ThoughtSpot's appointment as General Counsel at a major data analytics company signals continued growth in the enterprise software space. On the financial front, American Water Works Company outperformed the market, indicating strong investor confidence. However, there were also cautionary notes such as USA Rare Earth's stock volatility due to regulatory uncertainties surrounding rare earth exports from China.",
+  "top_events": [
+    {
+      "rank": 1,
+      "category": "AI Chip Demand",
+      "headline": "NVIDIA Confirms Blackwell Demand with High Levels of Interest",
+      "details": "Jensen Huang stated that there is 'high levels of interest' in Blackwell chips from various customers, reflecting strong demand for AI data center deployments.",
+      "market_impact": "Positive sentiment for NVIDIA's stock and potential slowing impact on competitors like AMD."
+    },
+    {
+      "rank": 2,
+      "category": "Aerospace Contracts",
+      "headline": "Redwire Secures $50 Million Contract from Axiom for Space Station Components",
+      "details": "Redwire received a significant contract from Axiom valued at $50 million to supply advanced materials for the proposed space station.",
+      "market_impact": "Demonstrates growing aerospace and defense sector activity and potential expansion."
+    },
+    {
+      "rank": 4,
+      "category": "Rare Earth Stock Volatility",
+      "headline": "USA Rare Earth Shares Surge on China Export Curbs, Valued at New Record High",
+      "details": "USAR's stock jumped to $32.59 after Chinese restrictions on rare earth exports boost demand.",
+      "market_impact": "Highly volatile investment due to pre-revenue status and regulatory risks."
+    },
+    {
+      "rank": 5,
+      "category": "Critical Minerals Policy",
+      "headline": "US Expands Equity Investment in Rare Earths for National Security",
+      "details": "Department of Energy and Defense secure equity stakes in critical minerals supply chain resilience.",
+      "market_impact": "Policy shift aims to reduce reliance on China, benefiting domestic rare earth production."
+    },
+    {
+      "rank": 3,
+      "category": "Rare Earth Exports",
+      "headline": "US Government Expands Role in Rare Earth Sector to Strengthen Domestic Supply Chains",
+      "details": "The Department of Energy and Defense take strategic investments in rare earths mining and processing amid tightened Chinese export restrictions.",
+      "market_impact": "Could benefit companies like USA Rare Earth, but stock remains highly speculative."
+    }
+  ],
+  "themes": [
+    "AI Chip Demand Acceleration",
+    "Aerospace Contract Growth",
+    "Rare Earth Supply Chain Resilience"
+  ],
+  "generated_date": "2025-11-28",
+  "source_metadata": {
+    "generated_date": "2025-11-28 13:14:52",
+    "total_sectors": 23,
+    "total_tickers": 9410,
+    "total_summaries_processed": 20788,
+    "total_key_events": 80,
+    "failed_sectors": [],
+    "status": "complete"
+  },
+  "total_events_analyzed": 80
+}

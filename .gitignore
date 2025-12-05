@@ -117,7 +117,12 @@ Desktop.ini
 # Logs
 *.log
 
-# Keep CSV/JSON files (project data) tracked by default
-# If you want to ignore large/exported data files, add explicit patterns like:
-# data/*.csv
-# exports/*.json
+# Ignore large data files
+sectors_summary.json
+summary.json
+
+# Keep smaller CSV files tracked
+# Uncomment lines below to ignore specific CSV files:
+# company-crypto-tickers-tabs.csv
+# sectors_summary.csv
+# summary-export.csv

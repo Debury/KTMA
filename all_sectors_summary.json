@@ -1,0 +1,516 @@
+{
+  "metadata": {
+    "generated_date": "2025-11-28 13:14:52",
+    "total_sectors": 23,
+    "total_tickers": 9410,
+    "total_summaries_processed": 20788,
+    "total_key_events": 80,
+    "failed_sectors": [],
+    "status": "complete"
+  },
+  "sectors": {
+    "1": {
+      "sector_id": "1",
+      "ticker_count": 1152,
+      "summary_count": 2596,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Jensen Huang stated AMD will deliver Blackwell chip sales, anticipating high demand for AI solutions, citing a 75% increase in projected revenue."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Redwire received contract from Axiom, resulting in a $35 million order for advanced composite materials, intended for aerospace applications."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Lisa Su confirmed AMD deal, indicating the company’s strategy involves integrating Blackwell with existing product lines and collaborating with key customers, potentially driving a 20% revenue jump."
+        },
+        {
+          "date": "2024-01-12",
+          "event": "Terra Innovatum Srl, in collaboration with GSR III Acquisition Corp., announced the business combination under the name Terra Innovatum Global N.V. and the expected commencement of SOLO® micro-modular reactor licensing, production, and deployment."
+        },
+        {
+          "date": "2024-01-13",
+          "event": "Fifty1 AI Labs, a subsidiary of Fifty1 Labs, Inc., appointed Dr. Joel Gagnier as Chief Science Officer (CSO), highlighting the company’s rigorous scientific standards and regulatory excellence."
+        },
+        {
+          "date": "2024-01-14",
+          "event": "Cloud3 Ventures Inc. retained Ruskin Moscou Faltischek P.C. to advise on its planned uplisting to a major U.S. exchange, with lead counsel Stephen E. Fox serving as the Company’s advisor."
+        }
+      ]
+    },
+    "10": {
+      "sector_id": "10",
+      "ticker_count": 324,
+      "summary_count": 1034,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "NVIDIA CEO Jensen Huang confirmed significant Blackwell demand, citing increased customer interest and adoption across multiple skillsets, indicating substantial future revenue potential."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Redwire received a contract from Axiom, totaling $15 million with an expected 3-year duration, leveraging their expertise in advanced materials and aerospace applications."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Lisa Su stated uncertainty language regarding AMD’s future Blackwell chip supply, acknowledging potential bottlenecks but emphasizing robust production capacity and strategic partnerships."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "ONAR Holding Corporation’s subsidiary JUICE signed a Letter of Intent to acquire a New York-based growth marketing agency, expected to add $1.2M in annual recurring revenue and strengthen ONAR’s ecosystem."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "AGF-B.CO (AGF A/S) reports on its €50 million buyback program, repurchasing a total of 11,732,622 shares at an average price of €1.5033 from September 29 to October 3, 2025."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "TD SYNNEX has partnered with Nebius to bring a high-performance AI cloud to the IT ecosystem, enabling partners to deliver advanced, secure, and cost-optimized AI solutions without upfront hardware investment."
+        }
+      ]
+    },
+    "11": {
+      "sector_id": "11",
+      "ticker_count": 406,
+      "summary_count": 745,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Chevron confirmed a significant explosion at its Rodeo refinery in California, triggering a large fire and multiple evacuations. Initial reports indicate a possible vapor release caused by a pipeline rupture. Emergency responders are on scene managing the situation."
+        },
+        {
+          "date": "2024-01-14",
+          "event": "Tamboran Resources Corporation (TBN) share price surged 36.88% after acquiring Falcon Oil and Gas Ltd., gaining a leading position in the Beetaloo sub-basin. The company also announced a positive final investment decision on the Shenandoah South Pilot Project, set to commence first gas sales from mid-2026."
+        }
+      ]
+    },
+    "15": {
+      "sector_id": "15",
+      "ticker_count": 1,
+      "summary_count": 2,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Cerebras Systems withdrew plans for an initial public offering (IPO) in the US, having raised $1.1 billion at a valuation of $8.1 billion, according to a statement from the company."
+        }
+      ]
+    },
+    "16": {
+      "sector_id": "16",
+      "ticker_count": 5,
+      "summary_count": 375,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Lisa Su confirmed AMD’s deal with OpenAI, stating they've signed a multi-year agreement to supply GPUs and a 10% stake in AMD, valuing the company at approximately $80 billion."
+        },
+        {
+          "date": "2024-01-14",
+          "event": "OpenAI is expected to deploy its AI factory, a cluster of over 4,600 Nvidia GB300 rack computers, across Microsoft Azure’s global data centers."
+        }
+      ]
+    },
+    "17": {
+      "sector_id": "17",
+      "ticker_count": 1,
+      "summary_count": 3,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Redwire Corporation has received a contract from Axiom Space to develop roll-out solar array wings for the AxPPTM space station module, strengthening its reputation as a supplier of proven solar power technology. Axiom Space’s technology has a success rate of 100% on-orbit performance and is being used on several commercial and civil missions, including the ISS."
+        }
+      ]
+    },
+    "18": {
+      "sector_id": "18",
+      "ticker_count": 1,
+      "summary_count": 1,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Elon Musk's Neuralink has leased a vacant building in South San Francisco, marking the company's renewed interest in the Bay Area tech scene. The company, valued at over $3 billion, currently has 12 patients worldwide with its implant undergoing human trials."
+        }
+      ]
+    },
+    "19": {
+      "sector_id": "19",
+      "ticker_count": 2,
+      "summary_count": 4,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Andreessen Horowitz is leading a $1 billion investment in Unconventional, Inc., a startup founded by Naveen Rao, former head of AI at Databricks, with a $5 billion valuation. Databricks is also investing in the company."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Cohesity has been named a Leader in the IDC MarketScape: Worldwide Cyber Recovery 2025 Vendor Assessment, with strengths including AI-assisted recovery orchestration, advanced threat and anomaly detection, and extensive data security ecosystem."
+        }
+      ]
+    },
+    "2": {
+      "sector_id": "2",
+      "ticker_count": 1100,
+      "summary_count": 2088,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Niagen Bioscience, Inc. announced an increased full-year 2025 net sales outlook to 25% to 30% year-over-year growth due to a reversal of FDA rulings regarding the DSHEA drug preclusion rule relating to NMN. Robert Fried, CEO of Niagen Bioscience, indicated this growth was driven by heightened market interest in their NAD+ booster, Niagen, as a superior NAD+ booster compared to NMN."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Institutional ownership of Niagen Bioscience stands at 51%, with the top 10 shareholders holding over half the company's shares. Insider ownership is 29%, with Robert Fried owning 2.1%."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Celon Pharma S.A. announced that its lead neuroscience program, CPL’36, received FDA clearance for Phase 3 testing following a positive Type B meeting. The company plans to conduct two 28-day trials and a 12-month safety extension. CPL’36 demonstrated strong efficacy and safety in its prior Phase 2 study and is being evaluated for schizophrenia and Levodopa-Induced Dyskinesia in Parkinson’s disease."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Polyrizon Ltd. demonstrated its PL-14 Allergy Blocker formulation effectively limited allergen diffusion over time, forming an effective nasal barrier against house dust mite allergen (Der p 1) in pre-clinical trials."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Herantis Pharma Oyj announced positive topline data for HER-096 in Phase 1b trial for people living with Parkinson’s disease. The clinical trial demonstrated that both repeated 200 mg and 300 mg doses of HER-096 are generally safe and well tolerated in Parkinson’s disease patients. Both doses demonstrated efficacy."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Eco-Growth Strategies Inc. has begun the process of reopening its Aiea, HI bottled water plant acquired in an asset purchase. The company has made over $1,000,000 in repairs and upgrades to the facility, which is expected to generate $100M in revenue through additional equipment installations."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Synbio International Inc. executed a Share Purchase Agreement and Warrant Agreement with FacialDx, Inc., further strengthening their strategic partnership. The agreements secure an equity stake in FacialDx and enable Synbio to convert future clinical trial expenditures into additional equity at today’s valuation."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Zomedica Corp. announced a live session on October 24th to showcase its VETGuardian Monitor, which enhances patient care and improves workflow efficiency in the veterinary industry."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Niagen Bioscience, Inc. announced a 25% to 30% year-over-year net sales growth outlook for 2025 due to FDA reversal, citing market interest in Niagen as a superior NAD+ booster."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Polyrizon Ltd. demonstrated its PL-14 Allergy Blocker formulation effectively limited allergen diffusion over time, forming an effective nasal barrier against house dust mite allergen (Der p 1) in pre-clinical trials."
+        }
+      ]
+    },
+    "21": {
+      "sector_id": "21",
+      "ticker_count": 2,
+      "summary_count": 10,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Kraken has ramped up hiring efforts, advertising over 1,600 open roles across the crypto industry, driven by bullish signals including executive orders and appointments to key government roles."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Kraken’s XRP price moved above $3, driven by Ripple’s OCC application and growing optimism around the proposed Ripple National Bank, potentially granting direct access to US financial infrastructure."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Galaxy Digital has launched GalaxyOne, a platform for individual investors offering both cryptocurrency and equities trading. The service provides a premium yield product with an 8% APY available to accredited investors and a commission-free brokerage account with access to thousands of U.S.-listed stocks and ETFs."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Kraken has improved its professional trading platform, enabling retail traders to access up to 10x leverage and new crypto collateral assets, including Worldcoin (WLD) and World Liberty Financial (WLFI) margin trading pairs, expanding cryptocurrency offerings."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Ripple USD (RLUSD) has a current circulation of over $302 billion."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Kraken is fueling big ambitions in the market with its recent $100 million funding round."
+        }
+      ]
+    },
+    "22": {
+      "sector_id": "22",
+      "ticker_count": 1,
+      "summary_count": 1,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Xsolla announced the availability of its Buy Button for Android, enabling mobile game developers to launch direct payments from within their games to a web-based checkout that is fully compliant with evolving U.S. regulations."
+        }
+      ]
+    },
+    "23": {
+      "sector_id": "23",
+      "ticker_count": 1,
+      "summary_count": 2,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Discord reported a security incident involving an unauthorized party compromising a third-party customer service provider to extort a financial ransom. The incident affected users who communicated with the platform’s Customer Support or Trust & Safety teams. Discord stated it did not gain access to the platform directly."
+        }
+      ]
+    },
+    "24": {
+      "sector_id": "24",
+      "ticker_count": 3,
+      "summary_count": 8,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Chainalysis estimates Brazil received $318.8 billion in digital assets between July 2024 and June 2025, driven by financial pragmatism and regulatory clarity."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "The Reserve Bank of India (RBI) plans to introduce a digital currency backed by the RBI as part of its strategy to discourage private cryptocurrencies, aiming to simplify transactions, reduce paper consumption, and enable faster payments compared to traditional banking systems."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "India plans to launch its own digital currency backed by the Reserve Bank of India, leveraging blockchain technology for faster, safer, and transparent transactions, comparable to stablecoins legalized in the US."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Chainalysis estimates over $75 billion in cryptocurrency linked to criminal activity is currently identifiable on public blockchains, with nearly $15 billion held by illicit entities and over $60 billion in downstream wallets. The company argues that speed and coordination are now decisive for effective recovery."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Eric Larsson has been named Chief Financial Officer (CFO) at RethinkFirst, bringing over two decades of experience in guiding financial strategy and reporting."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "The US IPO market is unlikely to return to its record-breaking days in 2024, as a years-long slump and high-profile listings such as Klarna and StubHub are attributed to factors beyond regulatory costs."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Netskope has announced enhancements to its Universal Zero Trust Network Access (UZTNA) solution, providing visibility into all connected devices and enabling policy decisions based on posture, risk, and role."
+        }
+      ]
+    },
+    "25": {
+      "sector_id": "25",
+      "ticker_count": 4,
+      "summary_count": 5,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Guillermo Rauch, CEO of Vercel, stated that his social media post regarding a meeting with Benjamin Netanyahu hasn't affected customers or employees. Vercel’s valuation has reached $9.3 billion following a recent fundraise."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Travis Guerre has been appointed as General Counsel at ThoughtSpot, with a mandate to lead the company’s global legal strategy and oversee all legal initiatives."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Halfords has adopted FloQast to centralize its risk and controls processes, ensuring compliance readiness and freeing finance teams to focus on more strategic work. The decision reflects a proactive approach ahead of the new Provision 29 requirements, taking effect on January 1, 2026."
+        }
+      ]
+    },
+    "3": {
+      "sector_id": "3",
+      "ticker_count": 1004,
+      "summary_count": 3604,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Jensen Huang confirmed NVIDIA's Blackwell demand, stating ‘high levels of interest’ and expecting ‘significant revenue growth’."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Redwire received a contract from Axiom, valued at an unspecified amount, for services related to ‘advanced materials’."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Lisa Su confirmed AMD's Blackwell demand, stating ‘high levels of interest’ and expecting ‘significant revenue growth’."
+        }
+      ]
+    },
+    "30": {
+      "sector_id": "30",
+      "ticker_count": 1,
+      "summary_count": 2,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Bloomreach is participating in The MACH Alliance’s inaugural AI Hackathon to develop production-ready, AI-first solutions for the composable commerce community."
+        }
+      ]
+    },
+    "4": {
+      "sector_id": "4",
+      "ticker_count": 870,
+      "summary_count": 2542,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Redwire received a contract from Axiom, with Axiom awarding the contract to Redwire, a significant development for both companies indicating growth and potential expansion within the aerospace and defense sectors."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Lisa Su confirmed AMD’s Blackwell chip is seeing strong demand from customers, reflecting continued optimism about NVIDIA’s position and representing a key competitive challenge."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Jensen Huang stated Blackwell demand, signaling NVIDIA’s continued dominance in the AI chip market and potentially slowing down Blackwell’s impact."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Faraday Future has finalized its U.S. production assembly plan for FX Super One, which will commence component supply for the production phase."
+        }
+      ]
+    },
+    "5": {
+      "sector_id": "5",
+      "ticker_count": 383,
+      "summary_count": 1035,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Redwire received a contract from Axiom for the development of structural components for Axiom’s proposed space station, with an estimated value of $75 million."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Jensen Huang stated NVIDIA will continue to expand Blackwell chip sales with a focus on AI data center deployments, anticipating a 20% increase year-over-year."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Liminal Systems unveiled the ‘Aura’ AI platform at CES 2024, featuring generative AI and cloud connectivity for autonomous vehicles."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Limitless X Holdings Inc. partnered with Manny Pacquiao to co-develop a signature health and wellness line including nutritional supplements and recovery products aimed at athletes and consumers."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Big Lots, Inc. announced Jared Poff’s departure as EVP, CFO & CAO, effective November 31, 2024, with a search underway for a permanent replacement."
+        }
+      ]
+    },
+    "6": {
+      "sector_id": "6",
+      "ticker_count": 169,
+      "summary_count": 328,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Hawaiian Electric Industries, Inc. estimates the intrinsic value of Hawaiian Electric Industries using a Discounted Cash Flow (DCF) model. The projected fair value is US$9.78, and the current share price of US$11.16 suggests the company may be trading close to its fair value. The analysis also highlights three main giveaways: Hawaiian Electric Industries' peers are trading at a higher premium to fair value, the company has sufficient cash runway for more than 3 years, and it appears to be a good value based on P/S ratio."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Northwest Natural Holding Company has increased its quarterly dividend to 49.25 cents per share, with an indicated annual dividend rate of $1.97 per share. The company provides critical energy and essential water services to over one million meters across seven states."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "NextNRG Inc. has rolled out a new mobile fueling hub in Fort Myers, Florida, as part of its nationwide expansion. The company’s rapid growth and high demand for e-commerce activity have led to a significant increase in its share price. However, investors are now debating whether the market has already accounted for NextNRG’s future potential, given its fair value estimate is double its last close."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "American Water Works Company (AWK) has outperformed the broad market over the past year, with shares gaining 6%. The company’s recent uptick suggests that investors see new growth potential or improved stability. Analysts expect future growth in earnings and profit margins, but persistent cost pressures or regulatory setbacks could challenge this outlook."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "American Water Works Company (AWK) has been named on Forbes America’s Best Employers for Company Culture 2025 list. The ranking is based on an independent survey of employees and recognizes American Water’s commitment to its workforce."
+        }
+      ]
+    },
+    "7": {
+      "sector_id": "7",
+      "ticker_count": 355,
+      "summary_count": 545,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Jensen Huang of NVIDIA confirmed increased demand for Blackwell chipsets, stating ‘We expect a 30% increase in orders’ as reported at the Q4 earnings call."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Redwire received a contract from Axiom for $15 million, with Axiom awarding the contract to Redwire for aerospace components. The contract is scheduled to commence on January 26, 2024."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Lisa Su of NVIDIA indicated increased production targets for Blackwell, projecting a 30% increase in production volume by the end of Q1 2024."
+        }
+      ]
+    },
+    "8": {
+      "sector_id": "8",
+      "ticker_count": 1212,
+      "summary_count": 1398,
+      "generated_date": "2025-11-28",
+      "key_events": []
+    },
+    "9": {
+      "sector_id": "9",
+      "ticker_count": 1169,
+      "summary_count": 2366,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "Redwire received a contract from Axiom, valued at $50 million, for supplying advanced materials used in the construction of Axiom's proposed space station."
+        },
+        {
+          "date": "2024-01-08",
+          "event": "Lisa Su confirmed AMD’s Blackwell chip is experiencing significantly higher demand than anticipated, with initial orders exceeding 100,000 units, driven by AI applications."
+        },
+        {
+          "date": "2024-01-05",
+          "event": "Jensen Huang stated that NVIDIA’s Blackwell chip is expected to see a 50% increase in sales over the next fiscal year, attributed to expanding partnerships with major tech companies."
+        },
+        {
+          "date": "2024-01-12",
+          "event": "Nikola Corporation announced Lucid Group will acquire Nikola’s production facilities for $200 million, leveraging Lucid’s advanced battery technology in their electric truck development."
+        },
+        {
+          "date": "2024-01-14",
+          "event": "Pursuit Attractions and Hospitality, Inc. expanded its revolving credit facility by $100 million, extending the loan’s maturity to 2030, to support global expansion initiatives."
+        },
+        {
+          "date": "2024-01-14",
+          "event": "JBT Marel Corporation reported $15 million in sales from its new sensor technology, primarily driven by demand from the seafood processing industry. The company’s ROIC is currently at 8%."
+        }
+      ]
+    },
+    "unassigned": {
+      "sector_id": "unassigned",
+      "ticker_count": 1244,
+      "summary_count": 2094,
+      "generated_date": "2024-01-15",
+      "key_events": [
+        {
+          "date": "2024-01-10",
+          "event": "USA Rare Earth, Inc. (NASDAQ:USAR) jumped to a fresh record high of $32.59 apiece after China's tightened restrictions on the exportation of rare earth minerals. The company soared to a new 52-week high of $32.59 before trimming gains to end the day just up by 14.99 percent at $31.07 apiece."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "Barbara Humpton, CEO of USA Rare Earth, Inc. (NASDAQ:USAR), confirmed the company is in close communication with President Donald Trump’s administration, leading to a nearly 15% rally in the stock. The government’s potential interest in taking an equity stake could provide crucial capital and de-risk the company’s development. However, the stock remains a high-risk investment due to its pre-revenue status and volatile price."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "The U.S. government is expanding its role as an equity investor in the rare earth and critical minerals sector to strengthen domestic supply chains and reduce reliance on China. The Department of Energy and Department of Defense have taken strategic investments and policy decisions to converge national security and industrial policies in the mining and rare earth sectors."
+        },
+        {
+          "date": "2024-01-10",
+          "event": "China has announced new curbs on rare earth exports to the U.S., which could benefit USA Rare Earth as it aims to produce rare earths domestically. However, USA Rare Earth’s stock remains years from profitability and analysts predict a potential profit in 2028. Investing in USA Rare Earth is considered highly speculative."
+        }
+      ]
+    }
+  }
+}

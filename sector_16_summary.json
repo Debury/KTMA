@@ -1,0 +1,26 @@
+{
+  "sector_id": "16",
+  "generated_date": "2024-01-15",
+  "key_events": [
+    {
+      "date": "2024-01-10",
+      "event": "Jensen Huang stated that NVIDIA's Blackwell chips are experiencing 'high demand' and that the company's revenue and earnings have grown substantially over the past five years."
+    },
+    {
+      "date": "2024-01-12",
+      "event": "Lisa Su, CEO of AMD, announced the firm’s deal to supply chips to OpenAI and a 10% stake, affirming the total addressable market and suggesting AMD’s MI450 chip may be equal or superior to NVIDIA’s current version."
+    },
+    {
+      "date": "2024-01-13",
+      "event": "Jim Cramer highlighted NVIDIA’s large scale and potential for growth, maintaining a ‘Strong Buy’ rating despite concerns about valuations and a potential pullback."
+    },
+    {
+      "date": "2024-01-14",
+      "event": "Jensen Huang expressed surprise at AMD and OpenAI’s deal, characterizing it as ‘imaginative’ but ‘surprising’, and noted that NVIDIA's own partnership with OpenAI is structured differently."
+    },
+    {
+      "date": "2024-01-14",
+      "event": "SoftBank Group Corp is in talks to borrow $5 billion from global banks for a margin loan secured by shares of its chip unit Arm Holdings, with the capital funding additional investment in OpenAI this year."
+    }
+  ]
+}
